@@ -1,0 +1,79 @@
+.about-container {
+  padding-top: 100px;
+}
+
+.about-container h1 {
+  margin-bottom: 50px;
+  color: #2a386d;
+  font-size: 50px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  background-color: #2a386d;
+}
+
+.about-content .divImage,
+.about-content .divP {
+  width: 50%;
+}
+.about-content .divImage img {
+  width: 100%;
+  height: 100%;
+}
+.about-content .divP p {
+  color: #eee;
+  font-size: 25px;
+  padding: 20px;
+  line-height: 40px;
+}
+
+.about-container .paragraphs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.about-container .paragraphs p {
+  margin: 20px auto;
+  color: rgb(48, 47, 47);
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    width: 90%;
+  }
+  .about-content .divP p {
+    font-size: 20px;
+    width: 100%;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .about-content .divP,
+  .about-content .divImage {
+    width: 100%;
+  }
+
+  .about-container .paragraphs {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .about-content .divP,
+  .about-content .divImage {
+    width: 100%;
+  }
+}

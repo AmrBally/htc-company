@@ -1,0 +1,116 @@
+.contact {
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact h1 {
+  margin-bottom: 50px;
+  color: #2a386d;
+  font-size: 50px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  background-color: #2a386d;
+}
+.contact-container .divImage,
+.contact-container .divP {
+  width: 50%;
+}
+.contact-container .divImage img {
+  width: 100%;
+}
+
+.contact-container .divP p {
+  color: #eee;
+  font-size: 25px;
+  padding: 20px;
+  line-height: 40px;
+  width: 100%;
+}
+
+.ContactBox {
+  padding-bottom: 20px;
+}
+
+.ContactBox .aboutcontent {
+  margin: 90px auto;
+  text-align: left;
+  width: 50%;
+}
+.ContactBox .aboutcontent h2 {
+  font-size: 50px;
+  color: #2a386d;
+  margin: 30px auto;
+}
+.ContactBox .aboutcontent p {
+  font-size: 19px;
+  line-height: 2.5;
+  color: #7a7a7a;
+}
+
+.ContactBox Form {
+  background-color: #fceee0;
+  border: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ContactBox Form .formGroup {
+  width: 500px;
+}
+
+.ContactBox .btn {
+  width: 350px;
+  border-radius: 0;
+  height: 50px;
+}
+
+@media (max-width: 767px) {
+  .contact-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .contact-container .divImage,
+  .contact-container .divP {
+    width: 100%;
+  }
+  .ContactBox .aboutcontent {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .ContactBox .aboutcontent h2 {
+    font-size: 35px;
+  }
+  .ContactBox .aboutcontent p {
+    line-height: 2;
+  }
+  .ContactBox Form .formGroup {
+    width: 300px;
+  }
+  .ContactBox .btn {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-container .divImage,
+  .contact-container .divP {
+    width: 100%;
+  }
+}

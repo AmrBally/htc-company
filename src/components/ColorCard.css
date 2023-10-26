@@ -1,0 +1,33 @@
+.colorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.colorContainer h1 {
+  letter-spacing: 80px;
+  font-size: 50px;
+}
+
+.colorContainer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .colorDiv {
+    width: 60px !important;
+  }
+  .colorContainer {
+    width: 100%;
+  }
+  .colorContainer h1 {
+    letter-spacing: 10px;
+  }
+}

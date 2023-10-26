@@ -1,0 +1,42 @@
+.before-container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a386d;
+  flex-direction: column;
+}
+
+.before-container h2 {
+  color: #eee;
+  margin-bottom: 30px;
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.before-container .btn {
+  color: #5767aa;
+  border-color: #5767aa;
+  background-color: #eee;
+  width: 250px;
+  height: 50px;
+  border-radius: 0;
+  transition: 0.2s;
+}
+
+.before-container .btn:hover {
+  color: #eee;
+  border-color: rgb(52, 52, 179);
+  background-color: rgb(52, 52, 179);
+}
+
+@media (max-width: 767px) {
+  .before-container h2 {
+    font-size: 20px;
+  }
+  .before-container {
+    padding: 0 5px;
+  }
+}
